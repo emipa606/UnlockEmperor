@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Unlock Emperor</name>
+  <author>YAYO</author>
+  <supportedVersions>
+  <li>1.1</li>
+	</supportedVersions>
+	<packageId>com.yayo.unlockEmperor</packageId>
+	<loadAfter>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>com.yayo.workingRoyalty</li>
+    </incompatibleWith>
+  <description>Edit to reach the upper royal ranks that are locked.\nAdds 2 Elite Calling Skills with a higher royalty.</description>
+</ModMetaData>

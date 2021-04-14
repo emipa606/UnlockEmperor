@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============================= Permits from royal titles ============================= -->
+  <RoyalTitlePermitDef>
+    <defName>TradeSettlement</defName>
+    <label>trade with settlements</label>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>TradeOrbital</defName>
+    <label>trade with orbital traders</label>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>TradeCaravan</defName>
+    <label>trade with caravans</label>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallMilitaryAidSmall</defName>
+    <label>call trooper squad</label>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>Empire_Fighter_Trooper</pawnKindDef>
+      <pawnCount>4</pawnCount>
+    </royalAid>
+    <cooldownDays>45</cooldownDays>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallMilitaryAidLarge</defName>
+    <label>call janissary squad</label>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <royalAid>
+      <favorCost>6</favorCost>
+      <pawnKindDef>Empire_Fighter_Janissary</pawnKindDef>
+      <pawnCount>4</pawnCount>
+    </royalAid>
+    <cooldownDays>45</cooldownDays>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallMilitaryAidGrand</defName>
+    <label>call cataphract squad</label>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <royalAid>
+      <favorCost>12</favorCost>
+      <pawnKindDef>Empire_Fighter_Cataphract</pawnKindDef>
+      <pawnCount>4</pawnCount>
+    </royalAid>
+    <cooldownDays>45</cooldownDays>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallMilitaryAidGrand2</defName>
+    <label>call elite agent</label>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <royalAid>
+      <favorCost>18</favorCost>
+      <pawnKindDef>Empire_Fighter_Cataphract</pawnKindDef>
+      <pawnCount>6</pawnCount>
+    </royalAid>
+    <cooldownDays>45</cooldownDays>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallMilitaryAidGrand3</defName>
+    <label>call imperial elite agent</label>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <royalAid>
+      <favorCost>24</favorCost>
+      <pawnKindDef>Empire_Fighter_Cataphract</pawnKindDef>
+      <pawnCount>8</pawnCount>
+    </royalAid>
+    <cooldownDays>45</cooldownDays>
+  </RoyalTitlePermitDef>
+</Defs>
