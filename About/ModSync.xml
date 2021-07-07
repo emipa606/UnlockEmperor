@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>db98b6f4-1986-4cf9-915e-ad6936565d6a</ID>
   <ModName>Unlock Emperor (Continued)</ModName>
-  <Version>1.0.0.0</Version>
+  <Version>1.0.1.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,7 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
