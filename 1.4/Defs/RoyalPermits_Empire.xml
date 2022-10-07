@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RoyalTitlePermitDef>
+    <defName>CallMilitaryAidGrand2</defName>
+    <label>call elite squad</label>
+    <description>Call a group of 6 heavy cataphracts to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>Consul</minTitle>
+    <faction>Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>CallMilitaryAidLarge</prerequisite>
+    <uiPosition>(1,8)</uiPosition>
+    <royalAid>
+      <favorCost>18</favorCost>
+      <pawnKindDef>Empire_Fighter_Cataphract</pawnKindDef>
+      <pawnCount>6</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>70</cooldownDays>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallMilitaryAidGrand3</defName>
+    <label>call imperial elite squad</label>
+    <description>Call a group of 8 heavy cataphracts to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>Emperor</minTitle>
+    <faction>Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>CallMilitaryAidLarge</prerequisite>
+    <uiPosition>(1,9)</uiPosition>
+    <royalAid>
+      <favorCost>24</favorCost>
+      <pawnKindDef>Empire_Fighter_Cataphract</pawnKindDef>
+      <pawnCount>8</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>80</cooldownDays>
+  </RoyalTitlePermitDef>
+</Defs>
