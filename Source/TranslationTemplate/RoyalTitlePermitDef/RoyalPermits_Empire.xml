@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: call elite squad -->
+  <CallMilitaryAidGrand2.label>call elite squad</CallMilitaryAidGrand2.label>
+  <!-- EN: Call a group of 6 heavy cataphracts to aid you in battle. -->
+  <CallMilitaryAidGrand2.description>Call a group of 6 heavy cataphracts to aid you in battle.</CallMilitaryAidGrand2.description>
+  <!-- EN: call imperial elite squad -->
+  <CallMilitaryAidGrand3.label>call imperial elite squad</CallMilitaryAidGrand3.label>
+  <!-- EN: Call a group of 8 heavy cataphracts to aid you in battle. -->
+  <CallMilitaryAidGrand3.description>Call a group of 8 heavy cataphracts to aid you in battle.</CallMilitaryAidGrand3.description>
+</LanguageData>
